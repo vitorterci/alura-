@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(135deg, #0f4c75, #3282b8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background: #0d1b2a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 320px;
+    border: 2px solid #00bfff;
+    box-shadow: 0 0 15px rgba(0,0,0,0.5);
+}
+
+.formulario .titulo {
+    background-color: #00bfff;
+    color: white;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.formulario input[type="text"],
+.formulario input[type="email"],
+.formulario input[type="tel"],
+.formulario input[type="date"] {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #00bfff;
+    background: transparent;
+    color: white;
+    outline: none;
+    font-size: 14px;
+}
+
+.formulario label {
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.sexo {
+    margin-bottom: 15px;
+}
+
+.sexo label {
+    color: white;
+    font-size: 14px;
+    font-weight: normal;
+    display: block;
+}
+
+/* Data de nascimento em linha */
+.data-nascimento {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.data-nascimento label {
+    font-weight: bold;
+    color: white;
+    margin-right: 10px;
+    white-space: nowrap;
+}
+
+.data-nascimento input[type="date"] {
+    width: 150px;
+    padding: 8px;
+    border: none;
+    border-bottom: 1px solid #00bfff;
+    background: transparent;
+    color: white;
+    outline: none;
+    font-size: 14px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background: linear-gradient(45deg, #4facfe,#4aa2f0 );
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    opacity: 0.8;
+}
